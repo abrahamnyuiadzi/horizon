@@ -17,6 +17,12 @@ header{
     background-color: black;
     color: black;
 }
+.bolder{
+    h3{
+        font-weight: bolder;
+    }
+    
+}
 nav{
    
     display :flex;
@@ -26,18 +32,28 @@ nav{
 
     a{
         text-decoration: none;
+        color: black;
         
     }
 
 }
 .middle{
-    justify-content: space-between;
-   
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+    gap: 40px; 
 }
 .mark{
     display: flex;
-    flex-direction: row;
+  align-items: center;
+  justify-content: center;
     gap:20px;
+}
+.icons{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    gap:40px;
 }
 
 /*****************HEADER*******************************/
