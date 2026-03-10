@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7.738029mm"
+   height="7.7360268mm"
+   viewBox="0 0 7.738029 7.7360268"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="webdesignconcours_accueil.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.088528514"
+     inkscape:cx="-6461.1951"
+     inkscape:cy="-739.87461"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false"><sodipodi:guide
+       position="-311.84407,-303.12564"
+       orientation="1,0"
+       id="guide158"
+       inkscape:locked="false" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(990.09933,946.06528)"><g
+       id="g133"
+       transform="translate(4.4346221)"><g
+         id="g53-5"
+         transform="matrix(0.28225566,0,0,0.28225566,-1040.7316,-1093.3985)"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.937389">
+		<path
+   style="clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.937389"
+   d="m 177.359,549.393 c 7.565,0 13.729,-6.117 13.729,-13.688 0,-7.561 -6.164,-13.72 -13.729,-13.72 -7.562,0 -13.686,6.158 -13.686,13.72 0,7.57 6.124,13.688 13.686,13.688 z m -10.33,-14.261 1.449,-4.444 c 3.3,1.169 5.705,2.169 7.2,3.031 -0.386,-3.786 -0.597,-6.362 -0.626,-7.768 l 4.559,-0.008 c -0.056,2.043 -0.295,4.624 -0.722,7.746 2.163,-1.087 4.624,-2.095 7.386,-3.002 l 1.439,4.444 c -2.637,0.878 -5.246,1.441 -7.803,1.737 1.294,1.108 3.067,3.095 5.376,5.922 l -3.72,2.664 c -1.23,-1.652 -2.646,-3.894 -4.294,-6.714 -1.559,2.926 -2.913,5.182 -4.087,6.714 L 169.5,542.79 c 2.399,-2.979 4.145,-4.962 5.191,-5.922 -2.704,-0.503 -5.255,-1.105 -7.662,-1.736 z"
+   id="path52-3" />
+	</g></g></g></svg>
