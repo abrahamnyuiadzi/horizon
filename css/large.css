@@ -467,11 +467,78 @@ img{
         
     }
  }
- /************************TRANSACTION**********************************************************/
+ /**********************************************TRANSACTION**********************************************/
  .transaction{
     display:flex;
     flex-direction: row;
     align-items: center;
     gap:20px;
-    background-color: antiquewhite;
+    background-color: rgba(128, 128, 128, 0.295);
  }
+
+  /**********************************************TRANSACTION**********************************************/
+  .produit-box{
+    width:300px;
+    font-family: Arial;
+}
+
+.options{
+    display:flex;
+    gap:20px;
+    font-size:14px;
+}
+
+.prix{
+    font-size:28px;
+    margin:10px 0;
+}
+
+.achat{
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+
+.quantite{
+    display:flex;
+    align-items:center;
+    border:1px solid #ccc;
+}
+
+.quantite button{
+    border:none;
+    background:#eee;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+}
+
+.quantite span{
+    padding:0 10px;
+}
+
+.panier{
+    background:black;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.rencontrer{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+    margin:20px auto;
+    justify-content: space-between;
+}
+#btn-red{
+    background-color: red;
+    padding: 20px 50px;
+    border:none;
+    cursor: pointer;
+
+
+
+}
