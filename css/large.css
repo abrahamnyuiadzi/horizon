@@ -68,7 +68,7 @@ img{
      h1{
         font-size: 50px;
         line-height: 1em;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     button{
         padding: 20px 50px;
@@ -216,3 +216,262 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     margin: 70px 100px;
     background-color: antiquewhite;
 }
+
+
+
+/* Conteneur principal - seulement ce conteneur sera stylé */
+    .second-container {
+        display: flex;
+        align-items: center;
+        gap: 150px;
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 40px;
+        background-color: antiquewhite;
+        /* border-radius: 20px; */
+        /* box-shadow: 0 10px 30px rgba(0,0,0,0.1); */
+        /* font-family: Arial, sans-serif; */
+    }
+    
+    /* Conteneur de superposition des images */
+    .second-container .stack {
+        position: relative;
+        width: 450px;
+        height: 450px;
+        flex-shrink: 0;
+    }
+    
+    /* Style commun pour les boîtes d'images */
+    .second-container .box {
+        position: absolute;
+        width: 320px;
+        height: 320px;
+        /* border-radius: 15px; */
+        overflow: hidden;
+        box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease;
+    }
+
+    .second-container .box:hover {
+        transform: translateY(-10px);
+    }
+    
+    /* Style pour les images */
+    .second-container .box2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    
+    /* Positionnement avec superposition */
+    .second-container .box1 {
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+    
+    .second-container .box2 {
+        top: 65px;
+        left: 65px;
+        z-index: 2;
+    }
+    
+    .second-container .box3 {
+        top: 300px;
+        left: 250px;
+        z-index: 3;
+    }
+    
+    /* Labels pour Top-Left et Top-Right */
+    .second-container .label {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 8px 15px;
+        border-radius: 25px;
+        font-size: 14px;
+        font-weight: bold;
+        z-index: 4;
+    }
+    
+    .second-container .top-left {
+        top: 20px;
+        left: 20px;
+    }
+    
+    .second-container .top-right {
+        top: 20px;
+        right: 20px;
+    }
+    
+    .second-container .value {
+        color: #ffd700;
+        margin-left: 5px;
+    }
+    
+    /* Section texte à droite */
+    .second-container .circle-paragraph {
+        flex: 1;
+    }
+    
+    .second-container .circle-paragraph h1 {
+        font-size: 48px;
+        line-height: 1.2;
+        margin-bottom: 25px;
+        color: #333;
+        font-weight: 700;
+        margin-top: 0; /* Reset margin-top */
+    }
+    
+    .second-container .circle-paragraph p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #666;
+        margin-bottom: 35px;
+        max-width: 500px;
+    }
+    
+    /* Bouton principal */
+    .second-container .red-button {
+        background-color: #e63946;
+        color: white;
+        border: none;
+        padding: 15px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        /* border-radius: 50px; */
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        box-shadow: 0 5px 15px rgba(230, 57, 70, 0.3);
+    }
+    
+    .second-container .red-button:hover {
+        background-color: #c82333;
+        transform: scale(1.05);
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+        .second-container {
+            flex-direction: column;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .second-container .circle-paragraph p {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .second-container .stack {
+            width: 400px;
+            height: 400px;
+        }
+        
+        .second-container .box {
+            width: 280px;
+            height: 280px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .second-container .stack {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .second-container .box {
+            width: 220px;
+            height: 220px;
+        }
+        
+        .second-container .circle-paragraph h1 {
+            font-size: 36px;
+        }
+    }
+
+.centered{
+    text-align: center;
+    margin:20px auto;
+    line-height: 1em;
+}  
+/*********************** PRODUITS CSS*****************************/ 
+ .product-container{
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    margin: 20px 100px;
+
+ }
+
+ .part-product{
+
+   
+    img{
+        width:200px;
+        height: 200px;
+        
+    }
+    hr{
+        border: none;
+    height: 3px;
+    background: black;
+    margin: 5px 0; 
+    };
+
+  h3,
+ h4,
+ h6{
+    margin: 5px 0; /* réduit l'espace vertical */
+}
+ }
+ .price-icon{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    img{
+        width: 20px;
+        height: 20px;
+      
+    }
+ }
+ #back-blue{
+    background: linear-gradient(to top, white, blue);
+ }
+
+ #back-pink{
+     background: linear-gradient(to top, white, rgb(196, 27, 120));
+ }
+ #back-yellow{
+     background: linear-gradient(to top, white, rgb(219, 216, 41));
+ }
+ #back-pink{
+     background: linear-gradient(to top, white, rgb(196, 27, 120));
+ }
+ #back-bluer{
+     background: linear-gradient(to top, white, rgb(55, 176, 212));
+ }
+
+ /***************************************LIGNE VOIR PLUS**************************************/
+ .ligne{
+    margin:70px 100px;
+ }
+
+ #voirPlus{
+    text-align: center;
+    font-weight: bold;
+    a{
+        color:black;
+        text-decoration: none;
+        
+    }
+ }
+ /************************TRANSACTION**********************************************************/
+ .transaction{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    background-color: antiquewhite;
+ }
